@@ -1,0 +1,400 @@
+:root {
+    --primary-text-color:#212121;
+    --second-color:#757575;
+    --accent-color:#2196F3;
+    --fon-batton: #2196F3;
+    --wite-color:#ffffff;
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+    background-color: #ffffff; 
+}
+
+
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+/* ============HEADER============= */
+
+.header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.header.border {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-container {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item:not(:last-child) {
+    margin-right:50px;
+}
+
+.list-header {
+    display: flex;
+    align-items: center;
+    /* margin-left: auto; */
+}
+
+
+.menu-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var (--primary-text-color);
+}
+
+a.current {
+    color: var(--accent-color)
+}
+
+.menu-link:hover,
+.menu-link:focus {
+color: var(--accent-color)
+}
+.cont-link:hover,
+.cont-link:focus {
+color: var(--accent-color)
+}
+
+.item-link:not(:last-child){
+    margin-right: 50px;
+}
+
+
+.logo-link {
+ font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+margin-right: 93px;
+} 
+
+.logo-link>span {
+    color: var(--accent-color)
+}
+
+.link {
+    color: #000;
+}
+
+
+.cont-link {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em; 
+color: var(--second-color);
+}
+
+
+/* ==============HERO=============== */
+.hero {
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.hero-caption {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+margin-top: 0;
+margin-bottom: 30;
+}
+
+.modal-btn {
+font-weight: bold;
+font-size: 16px;
+line-height: 1.87;
+background-color: var(--fon-batton);
+color: var(--wite-color);
+cursor: pointer;
+min-width: 200px;
+border-radius: 4px;
+padding: 10px 32px;
+align-items: center;
+}
+
+
+
+/* ===========Особености подхода к работе=============== */
+
+
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.description {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.description-list {
+    display: flex;
+}
+
+.description-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.description-title {
+    margin-top: 0px;
+    margin-bottom: 10px;
+font-weight: 700;
+font-style: normal;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--primary-text-color);
+}
+
+.description-text {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--second-color);
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+
+
+/* =========Вид деятельности компании========== */
+
+.work {
+    padding-bottom: 94px;
+}
+
+.work-title {
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+margin-top: 0px;
+margin-bottom: 50px;
+}
+
+.work-title-list {
+    display: flex;
+    align-items: center;
+    margin-top: -30px;
+    margin-left: -30px;
+    flex-wrap: wrap;
+}
+
+.work-item {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+/* ===========Состав компании============ */
+.structure {
+    background: #F5F4FA;
+}
+
+.structure-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+
+.structure-list-item {
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+
+.structure-subtitle {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+text-align: center;
+color: var(--primary-text-color);
+margin-bottom: 10px;
+margin-top: 0;
+}
+
+.structure-list-profession {
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+text-align: center;
+color: var(--second-color);
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+.structure-list-picture {
+    margin-bottom: 30px;
+}
+
+/* ===============Footer============= */
+.footer {
+background: #2F303A;
+padding-top: 60px;
+padding-bottom: 60px;
+}
+
+address {
+font-style: normal;
+font-weight: normal
+}
+
+.company-address {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--wite-color);
+margin-top: 20px;
+margin-bottom: 9px;
+}
+
+.footer>.link {
+color: var(--wite-color);;
+}
+
+
+.list-contact {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.list-contact:hover {
+    color: var(--accent-color);
+}
+
+.footer-element {
+    margin-bottom: 9px;
+}
+
+/* ============Страница portfolio================ */
+/* ============Секция портфолио компании============= */
+.filters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 34px;
+}
+
+.filter-item:not(:last-child) {
+    margin-right: 8px;
+}
+
+.filter-item {
+color: var(--primary-text-color);
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+}
+
+.button {
+    padding: 6px 22px;
+    text-align: center;
+    background: #F5F4FA;
+    font-size: 16px;
+    line-height: 26px;
+    border-radius: 4px;
+    border: none;
+}
+
+.button:hover,
+.button:focus {
+    color: #ffffff;
+    background-color: var(--fon-batton);
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+
+.portfolio-list {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.portfolio-item-heading {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--primary-text-color); 
+}
+
+.portfolio-item-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: var(--second-color);
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
